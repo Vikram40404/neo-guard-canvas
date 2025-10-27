@@ -115,10 +115,10 @@ const Hero = () => {
           {/* Profile Photo Placeholder */}
           <div className="mb-12 flex justify-center">
             <div className="relative w-48 h-48 rounded-full border-4 border-primary animate-glow-pulse overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <span className="font-orbitron text-6xl text-primary">VB</span>
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-primary/20 to-secondary/20">
+                <span className="font-orbitron text-6xl text-primary leading-none">VB</span>
               </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent pointer-events-none" />
             </div>
           </div>
         </div>
